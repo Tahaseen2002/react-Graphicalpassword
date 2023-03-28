@@ -8,16 +8,16 @@ function Home() {
             fontSize: "40px",
             textAlign: "center",
             paddingTop: "40px",
-        }}>Home
+        }}><button type="button" class="btn btn-primary btn-lg">Home</button>
             <br></br>
             <div style={{
                 fontSize: "40px",
                 textAlign: "center",
                 paddingTop: "120px",
             }} >
-                <a href="/login">Login</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/login"><button type="button" class="btn btn-primary btn-lg">login</button></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                <a href="/register">Register</a>
+                <a href="/register"><button type="button" class="btn btn-primary btn-lg">Register</button></a>
 
             </div>
         </div>
